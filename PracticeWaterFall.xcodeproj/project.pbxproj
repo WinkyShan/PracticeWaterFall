@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12537E71207A154900B17E1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537E70207A154900B17E1F /* AppDelegate.m */; };
+		12537E74207A154900B17E1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537E73207A154900B17E1F /* ViewController.m */; };
+		12537E77207A154900B17E1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12537E75207A154900B17E1F /* Main.storyboard */; };
+		12537E79207A154900B17E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12537E78207A154900B17E1F /* Assets.xcassets */; };
+		12537E7C207A154900B17E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12537E7A207A154900B17E1F /* LaunchScreen.storyboard */; };
+		12537E7F207A154900B17E1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537E7E207A154900B17E1F /* main.m */; };
+		12537E89207A154900B17E1F /* PracticeWaterFallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537E88207A154900B17E1F /* PracticeWaterFallTests.m */; };
+		12537E94207A154900B17E1F /* PracticeWaterFallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537E93207A154900B17E1F /* PracticeWaterFallUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12537E85207A154900B17E1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12537E64207A154900B17E1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12537E6B207A154900B17E1F;
+			remoteInfo = PracticeWaterFall;
+		};
+		12537E90207A154900B17E1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12537E64207A154900B17E1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12537E6B207A154900B17E1F;
+			remoteInfo = PracticeWaterFall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12537E6C207A154900B17E1F /* PracticeWaterFall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeWaterFall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12537E6F207A154900B17E1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12537E70207A154900B17E1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12537E72207A154900B17E1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12537E73207A154900B17E1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12537E76207A154900B17E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12537E78207A154900B17E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12537E7B207A154900B17E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12537E7D207A154900B17E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12537E7E207A154900B17E1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12537E84207A154900B17E1F /* PracticeWaterFallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeWaterFallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12537E88207A154900B17E1F /* PracticeWaterFallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeWaterFallTests.m; sourceTree = "<group>"; };
+		12537E8A207A154900B17E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12537E8F207A154900B17E1F /* PracticeWaterFallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeWaterFallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12537E93207A154900B17E1F /* PracticeWaterFallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeWaterFallUITests.m; sourceTree = "<group>"; };
+		12537E95207A154900B17E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12537E69207A154900B17E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12537E81207A154900B17E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12537E8C207A154900B17E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12537E63207A154900B17E1F = {
+			isa = PBXGroup;
+			children = (
+				12537E6E207A154900B17E1F /* PracticeWaterFall */,
+				12537E87207A154900B17E1F /* PracticeWaterFallTests */,
+				12537E92207A154900B17E1F /* PracticeWaterFallUITests */,
+				12537E6D207A154900B17E1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12537E6D207A154900B17E1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12537E6C207A154900B17E1F /* PracticeWaterFall.app */,
+				12537E84207A154900B17E1F /* PracticeWaterFallTests.xctest */,
+				12537E8F207A154900B17E1F /* PracticeWaterFallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12537E6E207A154900B17E1F /* PracticeWaterFall */ = {
+			isa = PBXGroup;
+			children = (
+				12537E6F207A154900B17E1F /* AppDelegate.h */,
+				12537E70207A154900B17E1F /* AppDelegate.m */,
+				12537E72207A154900B17E1F /* ViewController.h */,
+				12537E73207A154900B17E1F /* ViewController.m */,
+				12537E75207A154900B17E1F /* Main.storyboard */,
+				12537E78207A154900B17E1F /* Assets.xcassets */,
+				12537E7A207A154900B17E1F /* LaunchScreen.storyboard */,
+				12537E7D207A154900B17E1F /* Info.plist */,
+				12537E7E207A154900B17E1F /* main.m */,
+			);
+			path = PracticeWaterFall;
+			sourceTree = "<group>";
+		};
+		12537E87207A154900B17E1F /* PracticeWaterFallTests */ = {
+			isa = PBXGroup;
+			children = (
+				12537E88207A154900B17E1F /* PracticeWaterFallTests.m */,
+				12537E8A207A154900B17E1F /* Info.plist */,
+			);
+			path = PracticeWaterFallTests;
+			sourceTree = "<group>";
+		};
+		12537E92207A154900B17E1F /* PracticeWaterFallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12537E93207A154900B17E1F /* PracticeWaterFallUITests.m */,
+				12537E95207A154900B17E1F /* Info.plist */,
+			);
+			path = PracticeWaterFallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12537E6B207A154900B17E1F /* PracticeWaterFall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12537E98207A154900B17E1F /* Build configuration list for PBXNativeTarget "PracticeWaterFall" */;
+			buildPhases = (
+				12537E68207A154900B17E1F /* Sources */,
+				12537E69207A154900B17E1F /* Frameworks */,
+				12537E6A207A154900B17E1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PracticeWaterFall;
+			productName = PracticeWaterFall;
+			productReference = 12537E6C207A154900B17E1F /* PracticeWaterFall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12537E83207A154900B17E1F /* PracticeWaterFallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12537E9B207A154900B17E1F /* Build configuration list for PBXNativeTarget "PracticeWaterFallTests" */;
+			buildPhases = (
+				12537E80207A154900B17E1F /* Sources */,
+				12537E81207A154900B17E1F /* Frameworks */,
+				12537E82207A154900B17E1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12537E86207A154900B17E1F /* PBXTargetDependency */,
+			);
+			name = PracticeWaterFallTests;
+			productName = PracticeWaterFallTests;
+			productReference = 12537E84207A154900B17E1F /* PracticeWaterFallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12537E8E207A154900B17E1F /* PracticeWaterFallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12537E9E207A154900B17E1F /* Build configuration list for PBXNativeTarget "PracticeWaterFallUITests" */;
+			buildPhases = (
+				12537E8B207A154900B17E1F /* Sources */,
+				12537E8C207A154900B17E1F /* Frameworks */,
+				12537E8D207A154900B17E1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12537E91207A154900B17E1F /* PBXTargetDependency */,
+			);
+			name = PracticeWaterFallUITests;
+			productName = PracticeWaterFallUITests;
+			productReference = 12537E8F207A154900B17E1F /* PracticeWaterFallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12537E64207A154900B17E1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ws;
+				TargetAttributes = {
+					12537E6B207A154900B17E1F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					12537E83207A154900B17E1F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12537E6B207A154900B17E1F;
+					};
+					12537E8E207A154900B17E1F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12537E6B207A154900B17E1F;
+					};
+				};
+			};
+			buildConfigurationList = 12537E67207A154900B17E1F /* Build configuration list for PBXProject "PracticeWaterFall" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12537E63207A154900B17E1F;
+			productRefGroup = 12537E6D207A154900B17E1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12537E6B207A154900B17E1F /* PracticeWaterFall */,
+				12537E83207A154900B17E1F /* PracticeWaterFallTests */,
+				12537E8E207A154900B17E1F /* PracticeWaterFallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12537E6A207A154900B17E1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12537E7C207A154900B17E1F /* LaunchScreen.storyboard in Resources */,
+				12537E79207A154900B17E1F /* Assets.xcassets in Resources */,
+				12537E77207A154900B17E1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12537E82207A154900B17E1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12537E8D207A154900B17E1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12537E68207A154900B17E1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12537E74207A154900B17E1F /* ViewController.m in Sources */,
+				12537E7F207A154900B17E1F /* main.m in Sources */,
+				12537E71207A154900B17E1F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12537E80207A154900B17E1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12537E89207A154900B17E1F /* PracticeWaterFallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12537E8B207A154900B17E1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12537E94207A154900B17E1F /* PracticeWaterFallUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12537E86207A154900B17E1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12537E6B207A154900B17E1F /* PracticeWaterFall */;
+			targetProxy = 12537E85207A154900B17E1F /* PBXContainerItemProxy */;
+		};
+		12537E91207A154900B17E1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12537E6B207A154900B17E1F /* PracticeWaterFall */;
+			targetProxy = 12537E90207A154900B17E1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12537E75207A154900B17E1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12537E76207A154900B17E1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12537E7A207A154900B17E1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12537E7B207A154900B17E1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12537E96207A154900B17E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12537E97207A154900B17E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12537E99207A154900B17E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticeWaterFall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ws.PracticeWaterFall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12537E9A207A154900B17E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticeWaterFall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ws.PracticeWaterFall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12537E9C207A154900B17E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticeWaterFallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ws.PracticeWaterFallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticeWaterFall.app/PracticeWaterFall";
+			};
+			name = Debug;
+		};
+		12537E9D207A154900B17E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticeWaterFallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ws.PracticeWaterFallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticeWaterFall.app/PracticeWaterFall";
+			};
+			name = Release;
+		};
+		12537E9F207A154900B17E1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticeWaterFallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ws.PracticeWaterFallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PracticeWaterFall;
+			};
+			name = Debug;
+		};
+		12537EA0207A154900B17E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticeWaterFallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ws.PracticeWaterFallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PracticeWaterFall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12537E67207A154900B17E1F /* Build configuration list for PBXProject "PracticeWaterFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12537E96207A154900B17E1F /* Debug */,
+				12537E97207A154900B17E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12537E98207A154900B17E1F /* Build configuration list for PBXNativeTarget "PracticeWaterFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12537E99207A154900B17E1F /* Debug */,
+				12537E9A207A154900B17E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12537E9B207A154900B17E1F /* Build configuration list for PBXNativeTarget "PracticeWaterFallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12537E9C207A154900B17E1F /* Debug */,
+				12537E9D207A154900B17E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12537E9E207A154900B17E1F /* Build configuration list for PBXNativeTarget "PracticeWaterFallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12537E9F207A154900B17E1F /* Debug */,
+				12537EA0207A154900B17E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12537E64207A154900B17E1F /* Project object */;
+}
