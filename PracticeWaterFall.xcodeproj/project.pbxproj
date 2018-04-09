@@ -15,6 +15,11 @@
 		12537E7F207A154900B17E1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537E7E207A154900B17E1F /* main.m */; };
 		12537E89207A154900B17E1F /* PracticeWaterFallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537E88207A154900B17E1F /* PracticeWaterFallTests.m */; };
 		12537E94207A154900B17E1F /* PracticeWaterFallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537E93207A154900B17E1F /* PracticeWaterFallUITests.m */; };
+		12537EA4207A169900B17E1F /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537EA2207A169900B17E1F /* CollectionViewCell.m */; };
+		12537EA5207A169900B17E1F /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12537EA3207A169900B17E1F /* CollectionViewCell.xib */; };
+		12537EA8207A199500B17E1F /* WaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537EA7207A199500B17E1F /* WaterFallLayout.m */; };
+		12537EAA207B765600B17E1F /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12537EA9207B765600B17E1F /* 1.plist */; };
+		12537EB1207B77A100B17E1F /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537EB0207B77A100B17E1F /* Goods.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		12537E8F207A154900B17E1F /* PracticeWaterFallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeWaterFallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12537E93207A154900B17E1F /* PracticeWaterFallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeWaterFallUITests.m; sourceTree = "<group>"; };
 		12537E95207A154900B17E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12537EA1207A169900B17E1F /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		12537EA2207A169900B17E1F /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		12537EA3207A169900B17E1F /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		12537EA6207A199500B17E1F /* WaterFallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFallLayout.h; sourceTree = "<group>"; };
+		12537EA7207A199500B17E1F /* WaterFallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFallLayout.m; sourceTree = "<group>"; };
+		12537EA9207B765600B17E1F /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		12537EAF207B77A100B17E1F /* Goods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
+		12537EB0207B77A100B17E1F /* Goods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Goods.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +116,15 @@
 			children = (
 				12537E6F207A154900B17E1F /* AppDelegate.h */,
 				12537E70207A154900B17E1F /* AppDelegate.m */,
-				12537E72207A154900B17E1F /* ViewController.h */,
-				12537E73207A154900B17E1F /* ViewController.m */,
+				12537EAD207B774400B17E1F /* Controller */,
+				12537EAC207B774400B17E1F /* Models */,
+				12537EAB207B774400B17E1F /* View */,
 				12537E75207A154900B17E1F /* Main.storyboard */,
 				12537E78207A154900B17E1F /* Assets.xcassets */,
 				12537E7A207A154900B17E1F /* LaunchScreen.storyboard */,
 				12537E7D207A154900B17E1F /* Info.plist */,
 				12537E7E207A154900B17E1F /* main.m */,
+				12537EAE207B778B00B17E1F /* SuportingFiles */,
 			);
 			path = PracticeWaterFall;
 			sourceTree = "<group>";
@@ -130,6 +145,44 @@
 				12537E95207A154900B17E1F /* Info.plist */,
 			);
 			path = PracticeWaterFallUITests;
+			sourceTree = "<group>";
+		};
+		12537EAB207B774400B17E1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12537EA6207A199500B17E1F /* WaterFallLayout.h */,
+				12537EA7207A199500B17E1F /* WaterFallLayout.m */,
+				12537EA1207A169900B17E1F /* CollectionViewCell.h */,
+				12537EA2207A169900B17E1F /* CollectionViewCell.m */,
+				12537EA3207A169900B17E1F /* CollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12537EAC207B774400B17E1F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12537EAF207B77A100B17E1F /* Goods.h */,
+				12537EB0207B77A100B17E1F /* Goods.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12537EAD207B774400B17E1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12537E72207A154900B17E1F /* ViewController.h */,
+				12537E73207A154900B17E1F /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		12537EAE207B778B00B17E1F /* SuportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				12537EA9207B765600B17E1F /* 1.plist */,
+			);
+			path = SuportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,8 +291,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12537EAA207B765600B17E1F /* 1.plist in Resources */,
 				12537E7C207A154900B17E1F /* LaunchScreen.storyboard in Resources */,
 				12537E79207A154900B17E1F /* Assets.xcassets in Resources */,
+				12537EA5207A169900B17E1F /* CollectionViewCell.xib in Resources */,
 				12537E77207A154900B17E1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +320,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12537EB1207B77A100B17E1F /* Goods.m in Sources */,
+				12537EA8207A199500B17E1F /* WaterFallLayout.m in Sources */,
 				12537E74207A154900B17E1F /* ViewController.m in Sources */,
 				12537E7F207A154900B17E1F /* main.m in Sources */,
+				12537EA4207A169900B17E1F /* CollectionViewCell.m in Sources */,
 				12537E71207A154900B17E1F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
