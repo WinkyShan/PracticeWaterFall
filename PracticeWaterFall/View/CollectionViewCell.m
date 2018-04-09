@@ -7,6 +7,7 @@
 //
 
 #import "CollectionViewCell.h"
+#import "UIImageView+WebCache.h"
 
 @interface CollectionViewCell()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
@@ -23,6 +24,7 @@
 
 -(void)setGoods:(Goods *)goods{
     _goods = goods;
+    [self.imageView sd_setImageWithURL:[NSURL URLWithString:goods.img]];
     self.priceLabel.text = goods.price;
     
 }

@@ -20,6 +20,7 @@
 		12537EA8207A199500B17E1F /* WaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537EA7207A199500B17E1F /* WaterFallLayout.m */; };
 		12537EAA207B765600B17E1F /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12537EA9207B765600B17E1F /* 1.plist */; };
 		12537EB1207B77A100B17E1F /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537EB0207B77A100B17E1F /* Goods.m */; };
+		26F628AE27E83ADA67677859 /* libPods-PracticeWaterFall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 202CA0F659F816DB1D010C40 /* libPods-PracticeWaterFall.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,9 @@
 		12537EA9207B765600B17E1F /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
 		12537EAF207B77A100B17E1F /* Goods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
 		12537EB0207B77A100B17E1F /* Goods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Goods.m; sourceTree = "<group>"; };
+		202CA0F659F816DB1D010C40 /* libPods-PracticeWaterFall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PracticeWaterFall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6EB7F0597BD20EEBE0C1C4 /* Pods-PracticeWaterFall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeWaterFall.release.xcconfig"; path = "Pods/Target Support Files/Pods-PracticeWaterFall/Pods-PracticeWaterFall.release.xcconfig"; sourceTree = "<group>"; };
+		9D4CA9ED1DB9B06D49D77FF7 /* Pods-PracticeWaterFall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeWaterFall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PracticeWaterFall/Pods-PracticeWaterFall.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F628AE27E83ADA67677859 /* libPods-PracticeWaterFall.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +103,8 @@
 				12537E87207A154900B17E1F /* PracticeWaterFallTests */,
 				12537E92207A154900B17E1F /* PracticeWaterFallUITests */,
 				12537E6D207A154900B17E1F /* Products */,
+				A831360EBE3072BAEFEA46F8 /* Pods */,
+				822DF7EA10B87323FD2FDBF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,6 +192,23 @@
 			path = SuportingFiles;
 			sourceTree = "<group>";
 		};
+		822DF7EA10B87323FD2FDBF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				202CA0F659F816DB1D010C40 /* libPods-PracticeWaterFall.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A831360EBE3072BAEFEA46F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D4CA9ED1DB9B06D49D77FF7 /* Pods-PracticeWaterFall.debug.xcconfig */,
+				6A6EB7F0597BD20EEBE0C1C4 /* Pods-PracticeWaterFall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12537E98207A154900B17E1F /* Build configuration list for PBXNativeTarget "PracticeWaterFall" */;
 			buildPhases = (
+				4FF326AD3163C072CE8269E3 /* [CP] Check Pods Manifest.lock */,
 				12537E68207A154900B17E1F /* Sources */,
 				12537E69207A154900B17E1F /* Frameworks */,
 				12537E6A207A154900B17E1F /* Resources */,
+				FBFCACB6F939F8DD2AA06D42 /* [CP] Embed Pods Frameworks */,
+				EA5E9B9DFE601C058C17B152 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -314,6 +341,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FF326AD3163C072CE8269E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA5E9B9DFE601C058C17B152 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PracticeWaterFall/Pods-PracticeWaterFall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBFCACB6F939F8DD2AA06D42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PracticeWaterFall/Pods-PracticeWaterFall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12537E68207A154900B17E1F /* Sources */ = {
@@ -486,6 +561,7 @@
 		};
 		12537E99207A154900B17E1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D4CA9ED1DB9B06D49D77FF7 /* Pods-PracticeWaterFall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +575,7 @@
 		};
 		12537E9A207A154900B17E1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6EB7F0597BD20EEBE0C1C4 /* Pods-PracticeWaterFall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -13,8 +13,6 @@
 static NSString *identifier = @"CollectionViewCell";
 
 @interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,WaterFallLayoutDelegate>
-//@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
-//@property (weak, nonatomic) IBOutlet WaterFallLayout *flowLayout;
 
 @property (strong, nonatomic) UICollectionView *collectionView;
 @property (strong, nonatomic) WaterFallLayout *flowLayout;
@@ -72,7 +70,8 @@ static NSString *identifier = @"CollectionViewCell";
 -(CGFloat)waterfallLayout:(WaterFallLayout *)waterfallLayout itemHeightForWidth:(CGFloat)itemWidth atIndexPath:(NSIndexPath *)indexPath{
     
     Goods *goods = self.goodsArray[indexPath.item];
-    CGFloat itemHeight = itemWidth * goods.h/goods.w;
+    CGFloat imgHeight = itemWidth * goods.h/goods.w;
+    CGFloat itemHeight = imgHeight + 30;
     return itemHeight;
 }
 
